@@ -5,7 +5,7 @@ const routes = require('./routes/routes');
 
 const app = express();
 
-mongoose.connect('mongodb://localhost:27017/stumble');
+mongoose.connect('mongodb://dtempleton:qwerty123@ds255797.mlab.com:55797/stumble');
 
 //sets bodyParser up to collect body as json.
 //WARNING bodyParser MUST come before routes(app) in order to have Json
